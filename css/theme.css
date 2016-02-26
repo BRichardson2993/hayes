@@ -1,0 +1,61 @@
+/* Palette:
+
+gray            #e9e9e9 rgb(233,233,233)
+maroon          #990000 rgb(153,0,0)
+yellow          #ffdf5e rgb(255,223,94)
+gold            #efca71 rgb(239,202,113)
+Darker Maroon   #91201D rgb(145,32,29)
+
+links: #336699
+*/
+
+.logo {
+	position: relative;
+	float: left;
+	z-index: 100;
+}
+
+h1 {
+	font-family: Dancing-Script;
+	width: 40%;
+	margin-left: 8em;
+}
+
+.bannerAddress {
+	width: 30%;
+	display: inline-block;
+	font-family: cabin, sans-serif;
+	font-size: 1em;
+	line-height: 1em;
+	text-align: center;
+	float: right;
+	margin-bottom: 1em;
+	color: #990000;
+	position: relative;
+	z-index: 3;
+}
+
+.bannerAddress a {
+	color: #990000;
+	text-decoration: underline;
+}
+
+.phone {
+	font-size: 2em;
+}
+
+.navbar-default {
+	z-index: 0;
+	border: none;
+	border-bottom: 2px solid #ffdf5e;
+}
+
+#navbar a {
+	font-family: cabin, sans-serif;
+	color: #990000;
+}
+
+#navbar a:hover {
+	color: #e9e9e9;
+	background: #91201d;
+}
