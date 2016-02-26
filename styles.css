@@ -1,0 +1,106 @@
+/************************************************************
+Palette:
+
+color            #hex rgb(233,233,233)
+)
+
+links: #hex
+
+font: calibri
+*************************************************************/
+
+
+/* Guide to code: code comments. */
+
+
+/*Simple Reset*/
+
+html,
+body,
+banner,
+img,
+h1,
+h2,
+h3,
+h4,
+nav,
+aside,
+section,
+article,
+pageNav,
+p,
+ul,
+ol,
+li,
+a,
+figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+
+/* Global Styles*/
+
+body {
+  font-family: arial, sans-serif;
+  max-width: 1280px;
+  margin-left: 5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #666;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+  padding: .5em 0 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding: 1.5em 0;
+}
+
+ul li {
+  list-style: inside;
+}
+
+p {
+  padding: 1em 0;
+}
+
+.picLg {
+  width: 100%;
+}
+
+
+/* Home page styles */
+
+
+/* Services page styles */
+
+
+/* About page styles */
+
+.position {
+  font-family: Times New Roman, serif;
+  font-style: italic;
+  font-size: .75em;
+}
+
+
+/* Quote page styles */
+
+
+/* Reviewspage styles */
